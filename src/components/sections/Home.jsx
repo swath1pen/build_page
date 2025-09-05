@@ -11,10 +11,18 @@ export const Home = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
             Build
           </h1>
-
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
             Description.
           </p>
+          {/* Container with background and centered image */}
+          <div className="bg-slate-800 max-w-md w-full mx-auto p-4 rounded-lg shadow-md flex justify-center items-center mb-8 h-64 md:h-80 relative">
+            <img
+              src="/build.png"
+              alt="Build"
+              className="max-h-full max-w-full object-contain m-auto"
+              style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }}
+            />
+          </div>
           <div className="flex justify-center space-x-4">
             <a
               href="/build_CAD.pdf"
@@ -23,12 +31,10 @@ export const Home = () => {
             >
               CAD Files
             </a>
-
             <a
               href="/build_part_List.xlsx"
               download
-              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
-             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
+              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
             >
               Part List
             </a>
@@ -38,3 +44,4 @@ export const Home = () => {
     </section>
   );
 };
+
