@@ -37,13 +37,13 @@ Commit Changes with Git Push
 
    ```bash
    npm run dev
-   ``
+   ```
 
 9. ## Deploy
     
    ```bash
    npm run deploy
-   ``
+   ```
 
 Your build should now be available on a webpage at https://${github_username}.github.io/${build_name}
 
