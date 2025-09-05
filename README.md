@@ -19,9 +19,7 @@ https://threejs.org/editor/
 
 5. **Change github page name to build name in main/package.json**
    - Edit line 3.
-
-Commit Changes with Git Push
-
+   - Commit Changes with Git Push
 
 6. **In Terminal Install dependencies:**
    
@@ -77,17 +75,20 @@ build/
 1. **Replace file in /main with your CAD .pdf file named <build>_CAD.pdf**
    These file must be in local and in your git page in the /main directory.
 
-3. **Replace file in /main with your Part List .xlsx file named <build>_partlist.pdf**
+2. **Replace file in /main with your Part List .xlsx file named <build>_partlist.pdf**
    These file must be in local and in your git page in the /main directory.
 
-5. **Change content links for your build in main/src/components/section/Home.jsx**
+3. **Change content links for your build in main/src/components/section/Home.jsx**
    - Edit content lines 12 and 16 - Build title and description.
 
-6. **Change links for your build in main/src/components/section/Usage.jsx**
+4. **Change links for your build in main/src/components/section/Usage.jsx**
    - Edit content in buildProtocols for your build.
    - Edit content line 25 - Build details.
    - Edit content line 53, 56 - Author info.
-   - Edit lines 58 - 83 for author profile links. (Only "href=" links need to be modified. "src=" links are logos.
+   - Edit lines 58 - 83 for author profile links. (Only "href=" links need to be modified. "src=" links are logos and remain unchanged.)
+
+11. ## Push changes.
+12. Use ``` npm run dev ``` to check page on local server. Use ```npm run deploy``` to deploy.
 
 ## License
 
