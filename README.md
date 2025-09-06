@@ -1,4 +1,4 @@
-# This is an example build repo for BioEchem⚡Builds Databse
+# This is an example build page for BioEchem⚡Builds
 
 ### NIH 3D Print Database - Deposit Your Build
 https://3d.nih.gov/<build>
