@@ -1,5 +1,5 @@
 # This is an example build page for BioEchem⚡Builds
-<img width="1095" height="765" alt="Screen Shot 2025-09-06 at 2 34 48 AM" src="https://github.com/user-attachments/assets/01badfd3-68bb-44bc-ae96-c94b267e5c9e" />
+<img width="547" height="347" alt="Screen Shot 2025-09-06 at 2 34 48 AM" src="https://github.com/user-attachments/assets/01badfd3-68bb-44bc-ae96-c94b267e5c9e" />
 
 ### NIH 3D Print Database - Deposit Your Build
 https://3d.nih.gov/<build>
