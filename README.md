@@ -46,7 +46,6 @@ https://3d.nih.gov/<build>
 Your build should now be available on a webpage at https://${github_username}.github.io/${build_name}
 
 ## Step 2: Edit your build page:
-
 ```
 build/
 ├── public/
@@ -86,8 +85,17 @@ build/
    - Edit content line 53, 56 - Author info.
    - Edit lines 58 - 83 for author profile links. (Only "href=" links need to be modified. "src=" links are logos and remain unchanged.)
 
+## Step 3: Deploy Edits:
+
 11. ## Push changes.
 12. Use ``` npm run dev ``` to check page on local server. Use ```npm run deploy``` to deploy.
+
+
+## Additional Page Components
+
+Visit https://github.com/swath1pen/bioreactor for source code to add 3D models to your page.
+Render 3D .gltf scense using https://threejs.org/editor/.
+
 
 ## License
 
