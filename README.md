@@ -16,8 +16,7 @@ https://3d.nih.gov/<build>
 
 5. **Change github page name to build name in main/package.json**
    - Edit line 3.
-     
-     **Commit Changes with Git Push**
+   ## Push Changes
 
 6. **In Terminal Install dependencies:**
    
