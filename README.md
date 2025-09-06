@@ -71,7 +71,7 @@ build/
 ├── index.html
 └── README.md
 ```
-1. **Replace files in /main with your CAD .pdf file named <build>_CAD.pdf and your your Part List .xlsx file named <build>_partlist.pdf**
+1. **Replace files in /main with your CAD .pdf file named build_CAD.pdf and your your Part List .xlsx file named build_partlist.pdf**
    These files must be in local and in your git page in the /main directory.
 
 2. **Replace image file in /main/src/assets with build.png file**
