@@ -9,7 +9,7 @@ https://3d.nih.gov/<build>
 ## Step 1: Deploy your build page:
 
 1. **Fork** this repo into your GitHub account. The name of the new repo should be the name of your build.
-2. **Clone** into local directory and open in Visual Studio Code. (make sue are signed in to you git account).
+2. **Clone** into local directory and open in Visual Studio Code. 
 3. Install Node.js
 
 4. **Change build name in main/vite.config.js**
