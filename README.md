@@ -4,11 +4,8 @@
 https://3d.nih.gov/<build>
 ### Protocols.io - Deposit Your Protocols
 [protocols.io ](https://www.protocols.io/)
-### Three.js Editor - Render 3D files and scenes for your build.
-https://threejs.org/editor/ 
 
-
-## Step 1: To create your own Build web page:
+## Step 1: Deploy your build page:
 
 1. Fork this repo into your GitHub account. The name of the new repo should be the name of your build.
 2. Clone repo into Visual Studio Code.
@@ -19,11 +16,12 @@ https://threejs.org/editor/
 
 5. **Change github page name to build name in main/package.json**
    - Edit line 3.
-   - Commit Changes with Git Push
+     
+     **Commit Changes with Git Push**
 
 6. **In Terminal Install dependencies:**
    
-      ```bash
+   ```bash
    npm install gh-pages
    ```
 
@@ -45,7 +43,7 @@ https://threejs.org/editor/
 
 Your build should now be available on a webpage at https://${github_username}.github.io/${build_name}
 
-10. ## Edit Page
+## Step 2: Edit your build page:
 
 ```
 build/
