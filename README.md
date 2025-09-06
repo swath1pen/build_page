@@ -50,11 +50,11 @@ Your build should now be available on a webpage at https://${github_username}.gi
 ```
 build/
 ├── public/
-│   └── build.stl
-│   └── scene1.gltf
-├── logos/
-│   ...
+│   └── lightning1.svg/
+│   └── vite.svg
 ├── src/
+│   ├── assets/
+│   │   └── build.png
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── MobileMenu.jsx
@@ -72,11 +72,10 @@ build/
 ├── index.html
 └── README.md
 ```
-1. **Replace file in /main with your CAD .pdf file named <build>_CAD.pdf**
-   These file must be in local and in your git page in the /main directory.
+1. **Replace files in /main with your CAD .pdf file named <build>_CAD.pdf and your your Part List .xlsx file named <build>_partlist.pdf**
+   These files must be in local and in your git page in the /main directory.
 
-2. **Replace file in /main with your Part List .xlsx file named <build>_partlist.pdf**
-   These file must be in local and in your git page in the /main directory.
+2. **Replace image file in /main/src/assets with build.png file**
 
 3. **Change content links for your build in main/src/components/section/Home.jsx**
    - Edit content lines 12 and 16 - Build title and description.
