@@ -24,7 +24,9 @@ https://3d.nih.gov/<build>
    ```bash
    npm install gh-pages
    ```
-
+   ```bash
+   npm audit fix
+   ```
    ```bash
    npm install
    ```
